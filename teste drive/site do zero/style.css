@@ -4,6 +4,7 @@
 }
 body {
     background-image: linear-gradient(to right, #004C50, #10ABB4);
+    
 }
 main {
     background-color:#9C3E00;
@@ -20,6 +21,6 @@ h1 {
     text-align: center;
 }
 h2{
-    background-color: #00939C;;
+    background-image: linear-gradient(to right,  #00939C, transparent);
     color: #9C3E00;
 }
