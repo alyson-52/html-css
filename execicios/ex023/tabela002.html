@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
 
         }
 
@@ -29,12 +30,40 @@
             text-align: right;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: blue;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: aqua;
+
+        }
+
         
     </style>
 </head>
 <body>
+    
     <h1>Uso de tabelas grandes</h1>
+
+    
+
     <table>
+        <caption>População das unidades Federativa</caption>
         <thead>
             <tr>
                 <th>Estado</th>
