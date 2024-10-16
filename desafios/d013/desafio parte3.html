@@ -7,6 +7,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
         }
 
         table {
@@ -18,19 +19,37 @@
 
         th, td {
             border: 1px solid black;
-            padding: 10px;
-            
+            padding: 10px;    
+        }
+
+        th {
+            text-align: center;
+        }
+
+        .titulo {
+            background-color: darkgray;
+            color: white;
+
+        }
+
+        #titulo2 {
+            text-align: left;
+
         }
     </style>
 </head>
 <body>
     <table>
-        <thead>
+        <thead class="titulo">
             <tr>
-                <th>Área</th>
-                <th>Disiplinas</th>
-                <th>Notas</th>
-                <th>Media</th>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disiplinas</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>nota 1</th>
+                <th>nota 2</th>
             </tr>
         </thead>
 
@@ -61,6 +80,31 @@
                 <td>Biologia</td>
                 <td>0</td>
                 <td>0</td>
+                <td>0</td>
+            </tr>
+
+            <tr class="titulo" >
+                <th colspan="4" id="titulo2">Média de Exatas</th>
+                <td>0</td>
+            </tr>
+            
+            <tr>
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+            <tr>
+                <td>Geografia</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+            </tr>
+
+            <tr class="titulo">
+                <th colspan="4"  id="titulo2">Média de Humanas</th>
                 <td>0</td>
             </tr>
             
