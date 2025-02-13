@@ -8,26 +8,27 @@
 </head>
 <body>
     <form action="" method="get" autocomplete="on">
+        <p id="cabeçalho">Cadastro</p>
         <p>
             <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" placeholder="nome do usuario"></p>
+            <input type="text" name="nome" id="inome" placeholder="  nome do usuario" maxlength="10" minlength="5"></p>
         <p>
             <label for="iemail">Email:</label>
-            <input type="email" name="email" id="iemail" placeholder="digite seu email"></p>
+            <input type="email" name="email" id="iemail" placeholder="  digite seu email"></p>
         <p>
             <label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha" placeholder="digite sua senha"></p>
+            <input type="password" name="senha" id="isenha" placeholder="   digite sua senha"></p>
        
 
         <p>
-            <label for="igenero">Genero</label>
-            <input type="text" name="Genero" id="igenero" list="list" placeholder="Selecione">
+            <label for="igenero">Genero:</label>
+            <input type="text" name="Genero" id="igenero" list="list" placeholder="  Selecione">
             <datalist id="list"> 
                 <option value="Masculino">Masculino</option>
                 <option value="Feminino">Feminino</option>
                 <option value="outros">outros</option>
         </p>
-        <p><input type="checkbox" name="check" id="icheck">Aceito os termo e condições</p>
+        <div><input type="checkbox" name="check" id="icheck">Aceito os termo e condições</div>
 
         <p>
             <input type="submit" value="Enviar">
