@@ -6,16 +6,28 @@
     padding: 0px;
 }
 
+
+
 body {
-    
-    background-image: linear-gradient(to top, rgb(105, 105, 105), rgb(42, 40, 40));
+    background-image: linear-gradient(to bottom, #8AA6A3, #4C5958);
     background-repeat: no-repeat;
     height: 100vh;
     
 }
 
+body section {
+    font-family: ;
+    font-weight: bold;
+    font-size: 50px;
+    color: #10403B
+}
+
+     
+
+
+
 body form {
-    background-image: linear-gradient(to top, rgb(105, 105, 105), rgb(42, 40, 40));
+    background-color: #127369;
     position: relative;
     top: 10%;
     left: 60%;
@@ -48,4 +60,13 @@ form #cabeçalho {
     text-align: center;
     font-size: 30px;
     
+}
+
+body img {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
 }
